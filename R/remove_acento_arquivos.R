@@ -1,6 +1,6 @@
-#' uma função que remove acentos de todos os arquivos em um diretório
+#' This function removes all accent of all files in the choosen folder.
 #'
-#' @dir Diretório onde estaão os arquivos a terem os acentos removidos. Usuário deve especificar todo  caminho.
+#' @dir Character. Folder where are the files. The user must write the path of the folder (there is no default).
 #' @keywords acentos
 #' @export
 #' @examples
