@@ -1,0 +1,13 @@
+Package: tbaep
+Type: Package
+Title: Auxilia no Achados e Pedidos
+Version: 0.1.0
+Author: Manoel Galdino
+Maintainer: The package maintainer <mgaldino@transparencia.org.br>
+Description: Este pacote permite aumentar a produtividade das atividades do projeto Achados e Pedido
+    Nele encontra-se lista dos comandos mais usados no projeto para inserir bases de dados no site.
+    Por exemplo, remover acentos dos arquivos para usar no importador etc.
+License: GPL 2
+Encoding: windows-1252
+LazyData: true
+RoxygenNote: 6.0.1
