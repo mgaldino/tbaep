@@ -1,7 +1,7 @@
 \name{tbaep}
 \alias{tbaep}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{remove acentos de arquivos
+\title{Remove acentos de arquivos
 %%  ~~function to do ... ~~
 }
 \description{
@@ -21,6 +21,7 @@ remove_acento_arquivos(dir)
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
+Não retorna nada. Mas imprime os arquivos modificados, se o usuário escolher "s" no prompt.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
