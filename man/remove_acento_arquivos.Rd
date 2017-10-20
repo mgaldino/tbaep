@@ -2,12 +2,12 @@
 % Please edit documentation in R/remove_acento_arquivos.R
 \name{remove_acento_arquivos}
 \alias{remove_acento_arquivos}
-\title{uma funÃ§Ã£o que remove acentos de todos os arquivos em um diretÃ³rio}
+\title{uma função que remove acentos de todos os arquivos em um diretório}
 \usage{
 remove_acento_arquivos(dir)
 }
 \description{
-uma funÃ§Ã£o que remove acentos de todos os arquivos em um diretÃ³rio
+uma função que remove acentos de todos os arquivos em um diretório
 }
 \examples{
 remove_acento_arquivos()
