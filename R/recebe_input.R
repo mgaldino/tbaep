@@ -1,7 +1,6 @@
 #' This function gets input from user
 #'
 #' @keywords prompt, input
-#' @export
 #' @examples
 #' recebe_input()
 
