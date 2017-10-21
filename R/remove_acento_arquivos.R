@@ -1,10 +1,12 @@
-#' This function removes all accent of all files in the choosen folder.
+#' Removes all accent of all files in the choosen folder.
 #'
 #' @dir Character. Folder where are the files. The user must write the path of the folder (there is no default).
 #' @keywords acentos
 #' @export
 #' @examples
-#' remove_acento_arquivos()
+#' do not run!
+#' my_folder <- getwd()
+#' remove_acento_arquivos(my_folder)
 
 remove_acento_arquivos <- function(dir) {
   # if(!require(stringi)) {
