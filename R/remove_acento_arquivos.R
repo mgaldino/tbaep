@@ -7,10 +7,10 @@
 #' remove_acento_arquivos()
 
 remove_acento_arquivos <- function(dir) {
-  if(!require(stringi)) {
-    install.packages("stringi")
-    stopifnot(require(stringi))
-  }
+  # if(!require(stringi)) {
+  #   install.packages("stringi")
+  #   stopifnot(require(stringi))
+  # }
 
   setwd(dir)
   vec_from <- list.files(pattern = "[áàãâéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]")
