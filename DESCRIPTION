@@ -4,6 +4,7 @@ Title: Auxilia no Achados e Pedidos
 Version: 0.1.0
 Author: Manoel Galdino
 Maintainer: The package maintainer <mgaldino@transparencia.org.br>
+Depends: stringi
 Description: Este pacote permite aumentar a produtividade das atividades do projeto Achados e Pedido
     Nele encontra-se lista dos comandos mais usados no projeto para inserir bases de dados no site.
     Por exemplo, remover acentos dos arquivos para usar no importador etc.
