@@ -1,7 +1,7 @@
 Package: tbaep
 Type: Package
 Title: Auxilia no Achados e Pedidos
-Version: 0.1.0
+Version: 0.1.1
 Author: Manoel Galdino
 Maintainer: The package maintainer <mgaldino@transparencia.org.br>
 Imports: stringi

@@ -1,6 +1,7 @@
 #' Removes all accent of all files in the choosen folder.
 #'
 #' @dir Character. Folder where are the files. The user must write the path of the folder (there is no default).
+#' @sub_folder Logical. If files within nested folders should be used.
 #' @keywords acentos
 #' @export
 #' @examples
@@ -8,14 +9,14 @@
 #' my_folder <- getwd()
 #' remove_acento_arquivos(my_folder)
 
-remove_acento_arquivos <- function(dir) {
+remove_acento_arquivos <- function(dir, sub_folder=T) {
   # if(!require(stringi)) {
   #   install.packages("stringi")
   #   stopifnot(require(stringi))
   # }
 
   setwd(dir)
-  vec_from <- list.files(pattern = "[áàãâéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]")
+  vec_from <- list.files(pattern = "[áàãâéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]", recursive = sub_folder)
   vec_to <- stringi::stri_trans_general(vec_from, "latin-ascii")
   file.rename(vec_from, vec_to)
 
